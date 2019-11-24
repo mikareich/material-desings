@@ -1,0 +1,91 @@
+/* Color Theme Swatches in Hex */
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+*::-moz-selection {
+  background: #26735d;
+  color: white;
+}
+
+*::selection {
+  background: #26735d;
+  color: white;
+}
+
+ms-list {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-width: 30%;
+  background: white;
+  border-radius: 5px;
+}
+
+ms-list-item-visual {
+  width: 10%;
+}
+
+ms-list-item-one,
+ms-list-item-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+ms-list-item-two {
+  height: 70px;
+}
+
+ms-list-item-primary-text {
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+ms-list-item-secondary-text {
+  width: 80%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+  color: gray;
+  margin: 0 auto;
+}
+
+ms-list-item-metadata {
+  position: absolute;
+  width: 10%;
+  color: gray;
+  text-align: center;
+  right: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  ms-list {
+    min-width: 100%;
+  }
+}
+/*# sourceMappingURL=list.css.map */

@@ -1,0 +1,18 @@
+/* Color Theme Swatches in Hex */
+$color-1-hex: #f294a5;
+$color-2-hex: #4150a6;
+$color-3-hex: #26735d;
+$color-4-hex: #f2c36b;
+$color-5-hex: #f24949;
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+*::selection{
+    background: #26735d;
+    color: white;
+}
