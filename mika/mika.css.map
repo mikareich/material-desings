@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,iCAAiC;AAMjC,OAAO,CAAC,kEAAI;AACZ,OAAO,CAAC,8DAAI;AAEZ,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,WAAW,EAAE,oBAAoB;CACpC;;AACD,AAAA,CAAC,AAAA,WAAW,CAAA;EACR,UAAU,EAAE,OAAO;EACnB,KAAK,EAAE,KAAK;CACf",
-    "sources": [
-        "mika.scss"
-    ],
-    "names": [],
-    "file": "mika.css"
-}
