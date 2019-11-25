@@ -1,23 +1,23 @@
-ms-list {
+md-list {
   display: flex;
   flex-direction: column;
   background: white;
-  > ms-list-item {
+  > md-list-item {
     display: flex;
     padding: 10px;
-    > ms-visual {
+    > md-visual {
       display: flex;
       padding: 5px;
       align-self: center;
     }
-    > ms-content {
+    > md-content {
       display: flex;
       flex-wrap: wrap;
       text-overflow: ellipsis;
       overflow: hidden;
       white-space: nowrap;
-      align-items: center;
-      > ms-secondary {
+      align-itemd: center;
+      > md-secondary {
         color: #7e7e7e;
       }
     }

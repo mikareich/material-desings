@@ -1,4 +1,4 @@
-class MSList extends HTMLElement {
+class MDList extends HTMLElement {
   constructor() {
     super();
     const oldOrder = [...this.children];
@@ -49,4 +49,4 @@ class MSList extends HTMLElement {
     );
   }
 }
-customElements.define("ms-list", MSList);
+customElements.define("md-list", MDList);
