@@ -1,0 +1,55 @@
+ms-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: white;
+}
+
+ms-list > ms-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+
+ms-list > ms-list-item > ms-visual {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 5px;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+ms-list > ms-list-item > ms-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+ms-list > ms-list-item > ms-content > ms-secondary {
+  color: #7e7e7e;
+}
+
+ms-list > ms-list-item > hr {
+  position: absolute;
+  left: 5%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+/*# sourceMappingURL=list.css.map */

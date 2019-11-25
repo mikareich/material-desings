@@ -1,0 +1,33 @@
+ms-list {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  > ms-list-item {
+    display: flex;
+    padding: 10px;
+    > ms-visual {
+      display: flex;
+      padding: 5px;
+      align-self: center;
+    }
+    > ms-content {
+      display: flex;
+      flex-wrap: wrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      align-items: center;
+      > ms-secondary {
+        color: #7e7e7e;
+      }
+    }
+    > hr {
+      position: absolute;
+      left: 5%;
+      align-self: flex-end;
+      width: 90%;
+      border: none;
+      border-bottom: 1px solid lightgray;
+    }
+  }
+}
