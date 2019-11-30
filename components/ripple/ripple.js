@@ -1,4 +1,4 @@
-[].map.call(document.querySelectorAll('md-button, [anim="ripple"]'), el => {
+[].map.call(document.querySelectorAll('md-button, md-link, [anim="ripple"]'), el => {
   el.addEventListener("click", e => {
     if(el.hasAttribute("disabled")) return
     e = e.touches ? e.touches[0] : e;
