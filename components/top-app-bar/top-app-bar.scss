@@ -1,0 +1,21 @@
+md-top-app-bar {
+  display: flex;
+  justify-content: space-between;
+  background: #3333af;
+  color: white;
+  align-items: center;
+  > * {
+    padding: 10px;
+  }
+  >md-link:hover{
+      opacity: 0.7;
+  }
+  > md-title {
+    margin: auto;
+  }
+}
+@media (max-width: 500px) {
+  md-link {
+    display: none;
+  }
+}

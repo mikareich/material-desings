@@ -1,9 +1,9 @@
-[anim="ripple"], md-button {
+[anim="ripple"], md-button, md-link {
   position: relative;
   overflow: hidden;
 }
 
-[anim="ripple"]:before, md-button:before {
+[anim="ripple"]:before, md-button:before, md-link:before {
   content: '';
   position: absolute;
   display: block;
