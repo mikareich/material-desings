@@ -16,9 +16,10 @@ md-list {
       text-overflow: ellipsis;
       overflow: hidden;
       white-space: nowrap;
-      align-itemd: center;
+      align-items: center;
       > md-secondary {
         color: #7e7e7e;
+        width: 100%;
       }
     }
     > hr {

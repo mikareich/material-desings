@@ -7,7 +7,7 @@
   content: '';
   position: absolute;
   display: block;
-  background: var(--ripple-background, gray);
+  background: var(--ripple-background, white);
   border-radius: 50%;
   pointer-events: none;
   top: calc(var(--y) * 1px);
